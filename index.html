@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <style>
+        #startknapp{
+            width: 300;
+            height: 100;
+            background-color: aqua;
+        }
+        
+        #c {
+            background-color: red;
+            display: none;
+        }
+    
+    </style>
+
+</head>
+
+<body>
+    <canvas id="c"></canvas>
+    
+    <div id="startknapp" onclick="init()">Startknapp</div>
+
+    <script>
+        var c;
+        function init(){
+            
+            c = document.getElementById("c");
+            c.style = "display: block;"
+            document.getElementById("startknapp").style = "display: none;"
+            
+        }
+        
+    </script>
+</body>
+
+</html>
